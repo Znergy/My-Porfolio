@@ -1,0 +1,90 @@
+/*
+* Application: Portfolio
+* Author: Ryan Jones
+* Version: 02/10/2017
+*/
+
+
+/***** Heading *****/
+
+.header {
+  height: auto;
+  background-color: blue;
+}
+
+/***** About *****/
+
+.about {
+  background-color: red;
+  height: auto;
+}
+
+.about img {
+  
+}
+
+/***** Projects *****/
+
+.projects {
+  clear: both;
+  background-color: green;
+  height: auto;
+}
+
+.projects img {
+  padding: 10px;
+}
+
+/***** More Information *****/
+
+.more-information {
+  background-color: aqua;
+  height: auto;
+}
+
+/***** More Information *****/
+
+.footer {
+  background-color: blueviolet;
+  height: auto;
+}
+
+
+/***** Image Effect's *****/
+
+.image-effect {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.image-effect:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transition: 1s;
+}
+
+.image-effect-circle {
+  border-radius: 250px;
+  border: 5px solid #fff;
+}
+
+/***** General effects *****/
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
