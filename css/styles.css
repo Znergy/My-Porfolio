@@ -24,8 +24,18 @@ p, footer {
   font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-  
+/* Colored Spans */
+
+span.green {
+  color: green;
+}
+
+span.blue {
+  color: blue;
+}
+
+span.yellow {
+  color: yellow;
 }
 
 /***** Heading *****/
@@ -63,6 +73,10 @@ p, footer {
 
 .about-text {
   padding-top: 20px;
+}
+
+.about-text p {
+  font-size: 20px;
 }
 
 
@@ -130,7 +144,6 @@ p, footer {
 }
 
 /***** General effects *****/
-
 
 
 /***** Media Query's *****/
