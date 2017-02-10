@@ -5,7 +5,10 @@
 */
 
 body {
-  background-color: #eee;
+  background-image: url('../images/header-image.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: auto;
   padding-left: -30px;
@@ -21,16 +24,20 @@ p, footer {
   font-family: 'Montserrat', sans-serif;
 }
 
+.container {
+  
+}
+
 /***** Heading *****/
 
 .header {
   height: auto;
-  background-color: blue;
   padding: 30px;
 }
 
 .main-header {
   font-size: 50px;
+  color: #000;
 }
 
 .secondary-header {
@@ -40,12 +47,13 @@ p, footer {
 /***** About *****/
 
 .about {
-  background-color: red;
+  background-color: rgba(0, 0, 0, 0.8);
   height: auto;
+  color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 34px;
+  padding-right: 34px;
 }
 
 .about img {
@@ -62,37 +70,49 @@ p, footer {
 
 .projects {
   clear: both;
-  background-color: green;
+  background-color: rgba(0, 0, 0, 0.8);
   height: auto;
   width: 100%;
-  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
+.projects h2 {
+  padding-top: 10px;
+}
 
 .projects img {
   padding: 10px;
 }
 
-.black-background-faded {
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: auto;
-  z-index: -1;
-}
-
 /***** More Information *****/
 
 .more-information {
-  background-color: aqua;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
   height: auto;
-  padding: 50px;
+  padding-bottom: 80px;
+}
+
+.sub-paragraph {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.more-information h2 {
+  padding-top: 10px;
 }
 
 /***** More Information *****/
 
 .footer {
-  background-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0.8);
   height: auto;
-  padding: 30px;
+  color: #fff;
+  margin-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 20px;
 }
 
 
