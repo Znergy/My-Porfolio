@@ -4,12 +4,36 @@
 * Version: 02/10/2017
 */
 
+body {
+  background-color: #eee;
+  width: 100%;
+  height: auto;
+  padding-left: -30px;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Lobster', cursive;
+}
+
+p, footer {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /***** Heading *****/
 
 .header {
   height: auto;
   background-color: blue;
+  padding: 30px;
+}
+
+.main-header {
+  font-size: 50px;
+}
+
+.secondary-header {
+  font-size: 40px;
 }
 
 /***** About *****/
@@ -17,11 +41,22 @@
 .about {
   background-color: red;
   height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .about img {
+  border-radius: 150px;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.about-text {
   
 }
+
 
 /***** Projects *****/
 
@@ -29,7 +64,10 @@
   clear: both;
   background-color: green;
   height: auto;
+  width: 100%;
+  padding: 30px;
 }
+
 
 .projects img {
   padding: 10px;
@@ -40,6 +78,7 @@
 .more-information {
   background-color: aqua;
   height: auto;
+  padding: 50px;
 }
 
 /***** More Information *****/
@@ -47,6 +86,7 @@
 .footer {
   background-color: blueviolet;
   height: auto;
+  padding: 30px;
 }
 
 
@@ -63,11 +103,6 @@
   transition: 1s;
 }
 
-.image-effect-circle {
-  border-radius: 250px;
-  border: 5px solid #fff;
-}
-
 /***** General effects *****/
 
 .float-left {
@@ -79,8 +114,14 @@
 }
 
 
+/***** Media Query's *****/
 
-
+@media screen and (max-width: 997px) {
+  
+  .projects img {
+    width: 100%;
+  }
+}
 
 
 
