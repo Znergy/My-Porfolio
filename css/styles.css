@@ -144,17 +144,21 @@ span.yellow {
   padding-top: 10px;
 }
 
-/***** More Information *****/
+/***** Footer *****/
 
 .footer {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0);
   height: auto;
   color: #fff;
-  margin-top: 20px;
-  padding-top: 25px;
+  margin-top: 25px;
   padding-bottom: 20px;
 }
 
+.bg-black {
+  width: 100%;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
 /***** Image Effect's *****/
 
