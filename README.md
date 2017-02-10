@@ -1,28 +1,29 @@
 # My Portfolio
 
-## Experience:
+#### My Portfolio, 02/10/2017
+#### By: Ryan Jones
 
-I build native Android applications using Java, and I build browser applications using JavaScript. I have experience attaching databases to my applications, using SQL. As well as, integrating google API's into my Android applications. My web design experience stems from codecademy, where I built fifteen websites using bootstrap. 
-
+## Description:
+This is a site I built for my individual project at Epicodus, you can follow this link to view the page live from gh-pages, http://znergy.github.io/my-portfolio
 
 ## Noteworthy Projects:
 * BlackJack Game (JavaScript)
 * RSS Feed News App (Java)
 * Calculator App (Java)
 
+## Setup/Installation Requirements
+* Clone the repository
+* Navigate to the my-portfolio directory
+* Open index.html
 
-## Technical Skills:
-* Java
-* SQL
-* JavaScript
-* HTML/CSS
+## Support/Contact Details
+Feel free to contact me for any reason. You can reach me at, ryanjonesilr@gmail.com.
 
-
-## Soft Skills:
-* Team Player
-* Passionate
-* Goal-Orientated
-* Focused
+## Technologies Used
+* HTML
+* CSS
+* Bootstrap
+* Font Awesome
 
 ## Useful Links:
 * LinkedIn: https://www.linkedin.com/in/ryan-jones-5996948b

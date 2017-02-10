@@ -62,6 +62,14 @@ span.yellow {
   color: yellow;
 }
 
+span.red {
+  color: red;
+}
+
+span.purple {
+  color: mediumpurple;
+}
+
 /***** Heading *****/
 
 .header {
