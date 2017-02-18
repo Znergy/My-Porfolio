@@ -20,6 +20,7 @@ This is a site I built for my individual project at Epicodus, you can follow thi
 Feel free to contact me for any reason. You can reach me at, ryanjonesilr@gmail.com.
 
 ## Technologies Used
+* JavaScript/JQuery
 * HTML
 * CSS
 * Bootstrap
